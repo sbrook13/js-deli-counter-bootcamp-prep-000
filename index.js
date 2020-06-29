@@ -1,14 +1,12 @@
 
 function takeANumber (katzDeliLine,newPerson){
-  katzDeliLine.push(`${newPerson}`)
-  for(let i=0;i<katzDeliLine.length;i++){
+  katzDeliLine.push(newPerson)
     return `Welcome, ${newPerson}. You are number ${katzDeliLine.length} in line.`
-  }
 }
 function nowServing (katzDeliLine){
     for(let i=0;i<katzDeliLine.length;i++){
       katzDeliLine = katzDeliLine.shift();
-      return `Currently serving ${katzDeliLine}.`
+      return `Currently serving ${katzDeliLine[i]}.`
     }
     return "There is nobody waiting to be served!"
 }
