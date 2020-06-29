@@ -24,3 +24,13 @@ function currentLine(a){
     }
   }   
 }
+
+var custCount = 0
+function ticketWheel(){
+  custCount = custCount +1
+  return `Welcome your ticket number is ${custCount}`
+}
+
+ticketWheel()
+ticketWheel()
+ticketWheel()
