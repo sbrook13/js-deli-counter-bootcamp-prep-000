@@ -24,10 +24,5 @@ function currentLine(a){
     fullList.push(` ${linePlace}. ${a[i]}`)
     i++
     }
-  }    
-<<<<<<< HEAD
-  return `The line is currently:${fullList}`
-=======
-  return `The line is currently:${fullList} `
->>>>>>> 5f019c54e95326f267d225c0d913e0aef0173d6a
+  }   
 }
